@@ -2,8 +2,12 @@
 
 This is my first web development project, written in JavaScript, HTML, and SASS. I started this project 3 years ago when I first began learning JavaScript.
 
-![Project Image 1](./assets/images/image1.png)
-![Project Image 2](./assets/images/image2.png)
+Landing Page | Product Page
+:-------------------------:|:-------------------------:
+![Landing Page Preview](./assets/image1.png)  | ![Product Page Preview](./assets/image2.png)
+
+
+
 
 ## Project Overview
 
@@ -12,10 +16,6 @@ This project served as a major stepping stone in my web development journey. Des
 ## Features
 
 The website is built with a responsive design in mind. It is equipped with interactive elements to provide a dynamic user experience. All styling is done using SASS, providing a structured and efficient approach to CSS.
-
-![Project Image 3](./assets/images/image3.png)
-![Project Image 4](./assets/images/image4.png)
-![Project Image 5](./assets/images/image5.png)
 
 ## How to Run
 
@@ -35,4 +35,4 @@ I appreciate any feedback on my code and am open to any contributions to improve
 
 ## License
 
-This project is licensed under the terms of the MIT license.
+This project is licensed under the terms of the **MIT license**.
