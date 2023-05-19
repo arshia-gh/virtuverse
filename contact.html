@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/solid.css" integrity="sha384-LA8Ug4T/nhVkyhrSmSirsoAo9iDrBk8E7U80aSPeD+w3vO8PzOJIS6agGcbIwwX0" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/brands.css" integrity="sha384-V5Z1KgRRJyY878qCx7+zUeTDm0FgjoYrbmSortFqRPGz+Ue6XDe4uIiMqB3tB/wd" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/fontawesome.css" integrity="sha384-wESLQ85D6gbsF459vf1CiZ2+rr+CsxRY0RpiF1tLlQpDnAgg6rwdsUF1+Ics2bni" crossorigin="anonymous" />
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <!-- inject:css -->
+  <link rel="stylesheet" href="static/css/style.min.css">
+  <!-- endinject -->
+  <title>Virtuverse - Contact us</title>
+</head>
+
+
+<body class="content">
+  <span class="copied-text">Test</span>
+  <div class="content">
+    <nav class="navbar container">
+      <div class="navbar__logo-box">
+        <a class="navbar__logo" href="./">Virtuverse</a>
+      </div>
+      <button class="navbar__button" aria-hidden="true">
+        <span class="navbar__bars"></span>
+      </button>
+      <ul class="navbar__h-nav">
+        <li class="h-nav__item h-nav__item--active">
+          <a href="./" class="h-nav__link">Home</a>
+        </li>
+        <li class="h-nav__item">
+          <a href="./products.html" class="h-nav__link">Products</a>
+        </li>
+        <li class="h-nav__item">
+          <a href="./about.html" class="h-nav__link">About</a>
+        </li>
+        <li class="h-nav__item">
+          <a href="./contact.html" class="h-nav__link">Contact</a>
+        </li>
+        <li class="h-nav__item">
+          <a href="./blog.html" class="h-nav__link">Blog</a>
+        </li>
+        <li class="h-nav__item">
+          <a href="./join.html" class="h-nav__link">Join</a>
+        </li>
+      </ul>
+    </nav>
+
+    <main class="contact__content pb-8">
+      <section class="container mt-6 mt-tab-land-2">
+        <h1 class="heading heading--primary text-white text-tab-land-center">
+          Contact Us!
+        </h1>
+        <p class="text-large mt-1 text-white text-tab-land-center">
+          Already have an idea for your product? Request a proposal below for
+          the products and we will see through your idea!
+        </p>
+        <div class="contact__content-box py-4 px-4 mt-7">
+          <form class="contact__form" action="./index.html" method="get" novalidate>
+            <p class="form__control">
+              <input class="form__input" type="text" id="firstName" name="firstName" />
+              <label class="form__label" for="firstName">First name</label>
+              <small class="form__description">
+                * First name is required
+              </small>
+              <i class="fas fa-check"></i>
+              <i class="fas fa-times"></i>
+            </p>
+            <p class="form__control">
+              <input class="form__input" type="text" id="lastName" name="lastName" />
+              <label class="form__label" for="lastName">Last name</label>
+              <small class="form__description">* Last name is required</small>
+              <i class="fas fa-check"></i>
+              <i class="fas fa-times"></i>
+            </p>
+            <p class="form__control form__control--full">
+              <input class="form__input" type="email" id="emailAddress" name="emailAddress" />
+              <label class="form__label" for="emailAddress">Email address</label>
+              <small class="form__description">* Email address is required</small>
+              <i class="fas fa-check"></i>
+              <i class="fas fa-times"></i>
+            </p>
+            <p class="form__control form__control--full">
+              <input class="form__input" type="text" id="subject" name="subject" />
+              <label class="form__label" for="subject">Subject</label>
+              <small class="form__description">* Subject is required</small>
+              <i class="fas fa-check"></i>
+              <i class="fas fa-times"></i>
+            </p>
+            <p class="
+                  form__control form__control--full form__control--textarea
+                ">
+              <textarea id="message" class="form__input" name="message"></textarea>
+              <label class="form__label" for="message">Message</label>
+              <small class="form__description">* Message is required</small>
+              <i class="fas fa-check"></i>
+              <i class="fas fa-times"></i>
+            </p>
+            <p class="form__control form__control--full">
+              <button type="submit" class="button button--hover-left button--primary-dark">
+                Submit
+              </button>
+              <button type="reset" class="button button--hover-right button--secondary">
+                Reset
+              </button>
+            </p>
+          </form>
+          <section class="contact__description">
+            <div class="contact__description-heading">
+              <h2 class="heading heading--secondary text-tab-land-center">
+                Get in Touch with Us
+              </h2>
+              <p class="text-large mt-2 text-tab-land-center">
+                We provided you with our contact to ask about the project and
+                other matters that related to the project in the below section
+                of this text. Therefore, feel free to contact us using one of
+                the media that is provided to contact us.
+              </p>
+            </div>
+            <div class="contact-boxes">
+              <div class="contact-box">
+                <div class="contact-box__icon-box">
+                  <i class="fas fa-bullhorn"></i>
+                  <span class="weight-3">Support</span>
+                </div>
+                <a href="tel:+60-11-222-3232" class="contact-box__link">
+                  <i class="fas fa-phone-square-alt"></i>
+                  <span>+60 11-222-3232</span>
+                </a>
+                <span class="contact-box__link-copyto">
+                  <i class="fas fa-inbox"></i>
+                </span>
+                <a href="mailto:support@virtuverse.com" class="contact-box__link">
+                  <i class="fas fa-envelope-square"></i>
+                  <span>support <i class="fas fa-at"></i> virtuverse.com</span>
+                </a>
+                <span class="contact-box__link-copyto">
+                  <i class="fas fa-inbox"></i>
+                </span>
+              </div>
+              <div class="contact-box mt-2">
+                <div class="contact-box__icon-box">
+                  <i class="fas fa-bullhorn"></i>
+                  <span class="weight-3">Marketing</span>
+                </div>
+                <a href="tel:+60-11-333-3232" class="contact-box__link">
+                  <i class="fas fa-phone-square-alt"></i>
+                  <span>+60 11-333-3232</span>
+                </a>
+                <span class="contact-box__link-copyto">
+                  <i class="fas fa-inbox"></i>
+                </span>
+                <a href="mailto:marketing@virtuverse.com" class="contact-box__link">
+                  <i class="fas fa-envelope-square"></i>
+                  <span>marketing <i class="fas fa-at"></i> virtuverse.com</span>
+                </a>
+                <span class="contact-box__link-copyto">
+                  <i class="fas fa-inbox"></i>
+                </span>
+              </div>
+              <div class="contact-box mt-2">
+                <div class="contact-box__icon-box">
+                  <i class="fas fa-bullhorn"></i>
+                  <span class="weight-3">General</span>
+                </div>
+                <a href="tel:+60-11-444-3232" class="contact-box__link">
+                  <i class="fas fa-phone-square-alt"></i>
+                  <span>+60 11-444-3232</span>
+                </a>
+                <span class="contact-box__link-copyto">
+                  <i class="fas fa-inbox"></i>
+                </span>
+                <a href="mailto:general@virtuverse.com" class="contact-box__link">
+                  <i class="fas fa-envelope-square"></i>
+                  <span>general <i class="fas fa-at"></i> virtuverse.com</span>
+                </a>
+                <span class="contact-box__link-copyto">
+                  <i class="fas fa-inbox"></i>
+                </span>
+              </div>
+            </div>
+            <aside class="social-media">
+              <a href="https://www.instagram.com/virtuverseAI" class="social-media__box">
+                <i class="fab fa-instagram"></i>
+                <span>@virtuverseAI</span>
+              </a>
+              <a href="https://wa.me/60112223232" class="social-media__box">
+                <i class="fab fa-whatsapp"></i>
+                <span>+60 11-222-3232</span>
+              </a>
+              <a href="https://www.facebook.com/virtuverseAI" class="social-media__box">
+                <i class="fab fa-facebook-f"></i>
+                <span>@virtuverseAI</span>
+              </a>
+              <a href="https://twitter.com/virtuverseAI" class="social-media__box">
+                <i class="fab fa-twitter"></i>
+                <span>@virtuverseAI</span>
+              </a>
+            </aside>
+          </section>
+        </div>
+      </section>
+    </main>
+  </div>
+  <footer class="footer container">
+    <div class="footer__logo">
+      <a href="./" class="footer__logo-link">Virtuverse</a>
+    </div>
+    <ul class="footer__f-nav">
+      <li class="f-nav__item f-nav__item--active">
+        <a href="./" class="f-nav__link">Home</a>
+      </li>
+      <li class="f-nav__item">
+        <a href="./products.html" class="f-nav__link">Products</a>
+      </li>
+      <li class="f-nav__item">
+        <a href="./about.html" class="f-nav__link">About</a>
+      </li>
+      <li class="f-nav__item">
+        <a href="./contact.html" class="f-nav__link">Contact</a>
+      </li>
+      <li class="f-nav__item">
+        <a href="./blog.html" class="f-nav__link">Blog</a>
+      </li>
+      <li class="f-nav__item">
+        <a href="./join.html" class="f-nav__link">Join</a>
+      </li>
+    </ul>
+    <div class="footer__info">
+      <small class="footer__copyright">
+        &copy; 2021 Virtuaverse. All rights reserved
+      </small>
+      <div class="footer__social-media">
+        <a href="https://www.instagram.com/virtuverseAI" class="footer__social-media-icon">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://wa.me/60112223232" class="footer__social-media-icon">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+        <a href="https://www.facebook.com/virtuverseAI" class="footer__social-media-icon">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="https://twitter.com/virtuverseAI" class="footer__social-media-icon">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- inject:js -->
+  <script src="static/javascript/app.min.js"></script>
+  <!-- endinject -->
+</body>
+
+</html>
